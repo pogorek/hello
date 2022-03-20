@@ -1,14 +1,47 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Hello</title>
         <meta charset="utf-8">
-        <style>
-            color: blue;
-        </style>
+<link rel="stylesheet" href="default.min.css">
+<link href="prism.css" rel="stylesheet" /> 
+<script src="highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<style>
+code[class*="language-"], pre[class*="language-"] {
+white-space: pre-wrap;
+}
+</style>
     </head>
     <body>
+    
         <h1>Hello Peter</h1>
         Hello, world!
+        <pre><code class="html"><meta author="Joe Example"></code></pre>
+<div style="width: 70%;">
+        <pre><code class="language-css">code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}       
+</code></pre>
+</div>
+    <script src="prism.js"></script> 
     </body>
 </html>
